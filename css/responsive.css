@@ -1,0 +1,29 @@
+@media (max-device-width:992px) {
+    #kontener_zewn {
+        background-image: url(../img/man-1.jpg);
+        
+    }
+}
+
+@media (min-device-width:993px) and (max-device-width:1170px) {
+    #kontener_zewn {
+        height: 70vh;
+        background-image: url(../img/man-2.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+}
+
+@media (min-device-width:1171px) {
+    #kontener_zewn {
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+}
