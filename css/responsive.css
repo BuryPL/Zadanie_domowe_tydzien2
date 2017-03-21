@@ -6,16 +6,13 @@
         background-size: cover;
         text-align: center;
     }
-    
     #kont_wewn {
-        top:50vh;
+        top: 50vh;
         transform: translateX(-50%);
     }
-    
     h2 {
         font-size: 1.5rem;
     }
-    
     h1 {
         font-size: 2rem;
     }
@@ -29,13 +26,11 @@
         background-size: cover;
         color: #fff;
     }
-    
     #kont_wewn {
-        top:0;
+        top: 0;
         right: 0;
         padding: 35px;
     }
-    
     h2 {
         font-size: 1rem;
     }
@@ -48,7 +43,10 @@
         background-position: center;
         color: #fff;
     }
-    
+    #kont_wewn {
+        top: 50%;
+        transform: translateY(-50%);
+    }
     h2 {
         font-size: 1rem;
     }
